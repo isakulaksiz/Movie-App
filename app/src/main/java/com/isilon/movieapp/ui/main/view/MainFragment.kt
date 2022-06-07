@@ -13,6 +13,7 @@ import androidx.core.widget.NestedScrollView
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.isilon.movieapp.R
 import com.isilon.movieapp.data.api.ApiHelper
@@ -32,7 +33,7 @@ class MainFragment : Fragment() {
 
 
     private lateinit var temp: String
-    var limit: Int =7
+    var limit: Int =20
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -120,7 +121,7 @@ class MainFragment : Fragment() {
     }
 
     private fun setUpUI() {
-        binding.recyclerView.layoutManager = LinearLayoutManager(requireContext())
+        binding.recyclerView.layoutManager = GridLayoutManager(requireContext(),3,GridLayoutManager.VERTICAL,false)
         adapter = ITunesAdapter(arrayListOf())
         binding.recyclerView.addItemDecoration(
             DividerItemDecoration(

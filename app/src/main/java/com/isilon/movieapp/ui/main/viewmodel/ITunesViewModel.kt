@@ -13,9 +13,6 @@ import io.reactivex.schedulers.Schedulers
 class ITunesViewModel(private val iTunesRepository: ITunesRepository) : ViewModel(){
     val data = MutableLiveData<Resource<Model>>()
     private val compositeDisposable = CompositeDisposable()
-    init {
-        fetchPosts("",7)
-    }
 
      fun fetchPosts(q: String, limit: Int) {
         data.postValue(Resource.loading(null))
