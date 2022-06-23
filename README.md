@@ -1,7 +1,11 @@
 # ITunes - Movie App
-
-[![N|Solid](https://img.icons8.com/ios-glyphs/344/itunes.png)](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html)
-
+<p align="center">
+ <img src="https://img.icons8.com/ios-glyphs/344/itunes.png">
+</p>
+<p align="center">
+<img width="326" alt="Screen Shot 2022-06-10 at 17 26 56" src="https://user-images.githubusercontent.com/26628508/173087384-741825c3-7863-40ba-b53d-fb9d9f16785e.png">
+<img width="326" alt="Screen Shot 2022-06-10 at 17 27 10" src="https://user-images.githubusercontent.com/26628508/173087371-f490cbd0-4d90-499d-b3d0-2b7309538cf1.png">
+</p>
 
 [TR]: iTunes Search API kullanılarak kullanıcının iTunes platformunda yer alan Film, Müzik, Kitap, Uygulama gibi içeriklere ulaşması sağlanmaktadır.
 [EN]: By using the iTunes Search API, the user is able to access content such as Movies, Music, Books, Applications on the iTunes platform.
